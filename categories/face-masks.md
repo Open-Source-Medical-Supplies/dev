@@ -1,14 +1,17 @@
 ---
 id: face-masks
 name: OSCMS - Face Masks
+type: ppe
 ---
 
 {% for p in site.data.projects %}
+{% if p['Full Project Name] == page.id %}
 <h1><a href="{{p['Link']}}">{{p['Full Project Name']}}</a></h1>
 {{p['Description']}}  
 <!-- 
 Base ID,Full Project Name,Description,Supply,Project Category,Medical Supply ID,Individual Design ID,All Revisions,Last Revision,Last_ID,textid,Design Priority,Rec Level,Link,Link 2,Link 3,HeaderImage,What License,When Indexed,Attribution Organization,Creator,Use Case,Audience: Risk,MedTeam Design Specific Notes,Other Notes:,Revision Table Schema,Med Team Notes,Numerical ID,Kimly's Don't Touch Please,General Skills/Tools,Design Files,Manufacturing Audience,Bill of Materials,Tools Necessary,Difficulty,Approximate Production Time,Kill,Kill_2 -->
 
+{% endif %}
 
 {% endfor %}
 # The Problem:
