@@ -1,0 +1,457 @@
+---
+---
+<!-- Created by Kevin & Michael Fei & Sarah -->
+<!-- Updated by OSMS Dev Team -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+
+    <link type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i'></link>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- FA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" integrity="sha256-CuUPKpitgFmSNQuPDL5cEfPOOJT/+bwUlhfumDJ9CI4=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css" integrity="sha256-pIAzc/BIIo/hSvtNEDIiMTBtR9EfK3COmnH2pt8cPDY=" crossorigin="anonymous" />
+    <!-- /FA -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</head>
+<!-- header-->
+<header id="header">
+  <div class="container d-flex">
+
+    <div class="logo mr-auto">
+      <h1 class="text-light"><a href="index.html"><span>OSMS</span></a></h1>
+    </div>
+
+    <nav class="nav-menu d-none d-lg-block">
+      <ul>
+        <li><a href="#statistics">Our Impact</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#values">Designs</a></li>
+        <li><a href="#featured">Media and Supporters</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+
+        <div class="dropdown_new">
+
+          <li><a href="">Take Action Now</a></li>
+          <div class="dropdown-content">
+            <div class="header"></div>
+            <div class="row text-center" style="display: flex; justify-content: space-around; width: 100%;">
+              <li class="col-sm-12" style="font-size: 30px; font-family: 'Poppins', sans-serif">OSMS Guides</li>
+              <li><a href="https://docs.google.com/document/d/1-71FJTmI1Q1kjSDLP0EegMERjg_0kk_7UfaRE4r66Mg/edit"><img
+                    src="/assets/img/logos/osms-orange.png"
+                    style="width:auto;height:100px; margin-bottom:20px"></a></li>
+              <li><br></li>
+              <li><a href="https://oscms.app.box.com/s/zh0aynd8hflxkfdaucs14ifs05z8d8dn"><img
+                    src="/assets/img/logos/osms-blue.png"
+                    style="width:auto;height:100px;margin-bottom:20px"></a></li>
+            </div>
+            <div class="row text-center" style="position: relative;">
+              <div class="col-sm-4 col-lg-2"></div>
+
+
+              <div class="col-sm-3 col-lg-2">
+                <ul class="menu_content">
+                  <li class="dropdown-header">Make Supplies</li>
+                  <li class="item-content"><a href="#">Home Lab</a> </li>
+                  <li class="item-content"><a href="#">Fabrication Lab</a></li>
+                  <li class="item-content"><a href="#">Industrial Lab</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-lg-2">
+                <ul class="menu_content">
+                  <li class="dropdown-header">Connect with Us</li>
+                  <li class="item-content"><a href="#">COVID Help Map</a></li>
+                  <li class="item-content"><a href="#">OSMS Local Group Roster</a></li>
+                  <li class="item-content"><a href="#">Local Response Guide</a> </li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-lg-2">
+                <ul class="menu_content">
+                  <li class="dropdown-header">Get Involved</li>
+                  <li class="item-content"><a href="#">Volunteer with OSMS</a></li>
+                  <li class="item-content"><a href="#">Submit a Design</a> </li>
+                  <li class="item-content"><a href="#">Donate</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3 col-lg-2">
+                <ul class="menu_content">
+                  <li class="dropdown-header">Learn More</li>
+                  <li class="item-content"><a href="#">About Us</a></li>
+                  <li class="item-content"><a href="#">Affiliates</a></li>
+                  <li class="item-content"><a href="#">Subscribe to Updates</a></li>
+                </ul>
+              </div>
+              <div style="
+                  z-index: 10;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;">
+                <div id="coming-soon-background" style="
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  opacity: 0.7;
+                  background: black;"></div>
+                <h1 style="z-index: 15;
+                font-weight: 700;
+                color: black;
+                -webkit-text-fill-color: white;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: black;">Coming Soon</h1>
+              </div>
+            </div>
+
+          </div>
+        </div>
+  </div>
+  </ul>
+  </nav><!-- .nav-menu -->
+
+  </div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+<div class="container" data-aos="fade-in">
+
+  <img src="/assets/img/logos/osms_logo_transparent.png" alt="" width="227" height="185">
+  <h1>Open Source <br>Medical Supplies</h1>
+</div>
+</section><!-- Intro Banner Hero -->
+
+<main id="main">
+  <!-- ======= Why Us Section ======= -->
+  <section id="why-us" class="why-us">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xl-4 col-lg-5" data-aos="fade-up">
+          <div class="content">
+            <h3>About OSMS</h3>
+            <p>
+              We are an organization coordinating relief efforts in response to the COVID-19 pandemic. <strong>Open
+                Source Medical Supplies</strong> helps local fabricators and institutions responsibly create and
+              distribute protective gear and medical equipment to communities in crisis. We provide medically and
+              technically reviewed open source design plans to fabricators of all scales, and offer guidance to
+              community leaders to help organize effective local response efforts.
+              <div class="text-center">
+                <a href="https://www.facebook.com/groups/670932227050506/" class="more-btn">Facebook Page <i
+                    class="bx bx-chevron-right"></i></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-7 d-flex">
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img src="/assets/img/landing-page/icon_light.PNG" class="icon"
+                    style="width:100px;height:100px">
+                  <h4>Goal 1</h4>
+                  <p>Consolidate reviewed designs that can be immediately produced.</p>
+                </div>
+              </div>
+
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img src="/assets/img/landing-page/icon_wifi.png" class="icon"
+                    style="width:100px;height:100px">
+                  <h4>Goal 2</h4>
+                  <p>Educate and connect volunteers together. </p>
+                </div>
+              </div>
+
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img src="/assets/img/landing-page/icon_wrench.png" class="icon"
+                    style="width:100px;height:100px">
+                  <h4>Goal 3</h4>
+                  <p>Offer support, mentorship, and guidance to local communities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Why Us Section -->
+
+  <section id="statistics" style="background-color: #fff9f7">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"> Our Impact</h2>
+        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom"> Get to know our organization better through the
+          statistics. Our numbers are increasing and we are making bigger impacts everyday.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="100">
+            <img class="img-fluid icon" src="/assets/img/landing-page/stat_connect.PNG"
+              class="icon" style="width:100px;height:100px" />
+            <p>Our Facebook Group has <b>70,000+</b> members.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="150">
+            <img class="img-fluid icon" src="/assets/img/landing-page/stat_mask.PNG" class="icon"
+              style="width:100px;height:100px" />
+            <p>Individuals have produced <b>733,000</b> medical supplies.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="200">
+            <img class="img-fluid icon" src="/assets/img/landing-page/stat_map.PNG" class="icon"
+              style="width:100px;height:100px" />
+            <p>We have connected with <b>20+</b> states and <b>15+</b> countries.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="250">
+            <img class="img-fluid icon" src="/assets/img/landing-page/stat_heart.png" class="icon"
+              style="width:100px;height:100px" />
+            <p>Produced an <b>80+</b> page Open Source COVID-19 Medical Supply Guide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Resource Section ======= -->
+  <section id="resources" class="services section-bg" style="background:white;">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom">Resources</h2>
+        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+          Since the onset of COVID-19 we have been hard at work compiling a robust collection of information to help those in need.
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <!-- medical supply guide -->
+        <div class="col-md-5 icon-box" style="height: unset;" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <h3 data-aos="fade-up">Search our Supply Guide</h3>
+          <div class="d-flex flex-column" style="text-align:left" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+            <p>TODO: COPY</p>
+            <a style="margin: 0 auto;"
+              href="https://docs.google.com/document/d/1-71FJTmI1Q1kjSDLP0EegMERjg_0kk_7UfaRE4r66Mg/edit"><img
+                src="/assets/img/logos/osms-orange.png"
+                style="margin: 0 auto; height:100px;"></a>
+          </div>
+        </div>
+
+        <!-- spacer -->
+        <div class="col-md-1"></div>
+
+        <!-- local response -->
+        <div class="col-md-5 icon-box" style="height: unset; padding: 30px 20px;" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
+          <h3 data-aos="fade-up"><a class="osms-link"
+              href="https://docs.google.com/spreadsheets/d/1JH5uL3WW6PwvwFRe4wqXkheK0-jcGYqaPmb9J3Dr6Ac/edit?fbclid=IwAR2lfgxHK3BpFsuQNuC5hXSqnvDv60mQ7RfRWavAsG-II55j7CtwkCIe5-k#gid=179139280"
+              target="_blank" rel="noopener noreferrer">Find</a> a Local Chapter</h3>
+          <div class="d-flex flex-column" style="text-align:left" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+            <p>Connect with us! OSMS supports groups by providing a common point of contact and information on how to
+              form local responses to the COVID-19 medical emergency.</p>
+            <p>If this is the first time meeting us and you already have a local group, please let us
+              know by filling out this short form:
+            </p>
+            <a class="osms-link"
+              href="https://docs.google.com/forms/d/1d48Xpmg3cQ9cjf1L7MObH0tqHyTf9PS3w7_AIVJT7Pg/viewform?edit_requested=true"
+              target="_blank" rel="noopener noreferrer">OSMS Local Response Group Registry
+            </a><br>
+            <p> If there's no local group in your area, our Local Response Guide offers
+              helpful guidance for setting one up.</p>
+            <a style="margin: 0 auto; margin-top: 5px;"
+              href="https://oscms.app.box.com/s/zh0aynd8hflxkfdaucs14ifs05z8d8dn"><img
+                src="/assets/img/logos/osms-blue.png " style="margin: 0 auto; height:100px;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- End resource Section -->
+
+
+  <!-- ======= Values Section ======= -->
+  <section id="values" class="values" style="background-color: #fff9f7">
+    <div class="container">
+      <div class="section-title" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <h2>Open Designs</h2>
+        <p>This is our collection of open source designs for Medical Devices and Medical Supplies.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card"
+            style="background-image: url(/assets/img/landing-page/laryngoscope.png); background-position: 50% 25%;">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <div class="card-body">
+                <h5 class="card-title">Medical Devices</h5>
+                <p class="card-text">Collection of Medical Devices used during the treatment of COVID-19 patients.</p>
+                <!-- <div class="read-more"><i class="icofont-arrow-right"></i> Explore More</div> -->
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="card"
+            style="background-image: url(/assets/img/landing-page/oxygen_mask.jpg); background-position: -50% 15%; background-size: 90%;">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <div class="card-body">
+                <h5 class="card-title">Medical Supplies</h5>
+                <p class="card-text">Collection of PPE and Medical Supplies used during the treatment of COVID-19
+                  patients.</p>
+                <!-- <div class="read-more"><i class="icofont-arrow-right"></i>Explore More</div> -->
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Values Section -->
+
+  <section id="featured">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"> Featured In</h2>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-4 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="50">
+            <a
+              href="https://www.forbes.com/sites/tjmccue/2020/03/20/calling-all-people-who-sew-and-make-you-can-help-solve-2020-n95-type-mask-shortage/#1d8ca64c4e41">
+              <img class="img-fluid icon" src="/assets/img/logos/forbes-logo.png"
+                class="icon" style="width:auto;max-height:100%" />
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="100">
+            <a
+              href="https://www.cbc.ca/radio/day6/futures-on-hold-3d-printed-medical-gear-rem-s-mike-mills-choir-choir-choir-the-story-of-purell-and-more-1.5502663/robotics-engineer-crowd-sources-designs-for-covid-19-medical-supplies-to-help-out-of-stock-hospitals-1.5502671">
+              <img class="img-fluid icon" src="/assets/img/logos/CBC-logo.png" class="icon"
+                style="width:auto;max-height:100%" />
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="150">
+            <a href="https://www.newsweek.com/crowdsourcing-solutions-coronavirus-covid-19-facebook-1493075">
+              <img class="img-fluid icon" src="/assets/img/logos/Newsweek-logo.png"
+                alt="centered image" class="icon" style="width:auto;max-height:100%; margin-top: 25px" />
+            </a>
+          </div>
+
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-4 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="200">
+            <a
+              href="https://time.com/5811091/makers-3d-printing-coronavirus/?utm_source=facebook.com&utm_medium=social&utm_campaign=social-share-article&utm_content=20200401&fbclid=IwAR2j5RayRscZSgsvIZHkZxetjtiAwWz7Yd7ctSjNqWQn7dvddTRLP3IBm6Y">
+              <img class="img-fluid icon" src="/assets/img/landing-page/Time.png" class="icon" style="width:auto;max-height:70%" />
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="200">
+            <a
+              href="https://www.nytimes.com/2020/03/31/science/coronavirus-masks-equipment-crowdsource.html?smid=fb-nytimes&smtyp=cur&fbclid=IwAR3Ewi5b7aSykbmldrGcp_ppp5VNfuVkX2XU5dEsWIwFdqgnfzn1_r3q6c4">
+              <img class="img-fluid icon" src="/assets/img/landing-page/NYT.png" class="icon" style="width:auto;max-height:150%; margin-top: 15px" />
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="200">
+            <a
+              href="https://www.vice.com/en_us/article/5dm4mb/people-are-trying-to-make-diy-ventilators-to-meet-coronavirus-demand">
+              <img class="img-fluid icon" src="/assets/img/logos/vice-logo.png" class="icon" style="width:auto;max-height:100%" />
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="sponsor" style="background-color: #fff9f7">
+    <div class="section-title">
+      <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"> Our Supporters</h2>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 col-md-12 state icon-box" data-aos="fade-up" data-aos-delay="150">
+          <a href="https://schmidtfutures.com">
+            <img class="img-fluid icon" src="/assets/img/logos/partners_schmidt.svg"
+              alt="centered image" class="icon" style="width:auto;max-height:100%;" />
+          </a>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center" style="margin-top: 25px;">
+        <div class="col-lg-3 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="50">
+          <a href="https://www.tri.global">
+            <img class="img-fluid icon" src="/assets/img/logos/partners_tri.svg"
+              class="icon" style="width:auto;max-height:100%" />
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6 state icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a
+            href="https://www.resolve.ngo/osms.htm?fbclid=IwAR1hgCEv1a6qIWL2F309S2odyp22RQuhIAthz60KZGIS5DN3JBdkHkEPWnI">
+            <img class="img-fluid icon" src="/assets/img/logos/partners_resolve.svg"
+              class="icon" style="width:auto;max-height:100%" />
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-aos="fade-up">Contact</h2>
+        <p data-aos="fade-up">Contact us if you are an engineer, a medical professional, an innovator, or anyone who
+          wants to help the community. Submit your interests and local health care centers so that we can form cohesive
+          local groups. Your hospitals will need your help very soon, if not already.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xl-4 col-lg-4 mt-4" data-aos="fade-up">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Support Us</h3>
+            <p>Reach out to us at <a
+                href="mailto:info@opensourcemedicalsupplies.org">info@opensourcemedicalsupplies.org</a> to support us
+              professionally or financially.</p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 mt-4" data-aos="fade-up">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>Join the Facebook Page</h3>
+            <p> For more details, join the OpenSource COVID Medical Supplies <a
+                href="https://www.facebook.com/groups/opensourcecovid19medicalsupplies/">Facebook page</a><br><br></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Contact Section -->
+</main><!-- End #main -->
+
+<a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
+  integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js'></script>
+
+<script src='/scripts/init.js'></script>
+<script src='/scripts/backToTop.js'></script>
+<script src='/scripts/scrolling.js'></script>
+
+</body>
+</html>
