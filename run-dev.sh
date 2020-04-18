@@ -1,0 +1,1 @@
+jekyll s --incremental --livereload
