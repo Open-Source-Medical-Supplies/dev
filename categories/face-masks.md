@@ -6,7 +6,7 @@ displayname: OSCMS - Face Masks
 type: ppe
 ---
 
-# {{ page.displayname }}
+<h1> {{ page.displayname }}</h1>
 
 # The Problem:
 
