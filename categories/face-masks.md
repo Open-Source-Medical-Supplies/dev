@@ -3,6 +3,14 @@ id: face-masks
 name: OSCMS - Face Masks
 ---
 
+{% for p in site.data.projects %}
+<h1><a href="{{p['Link']}}">{{p['Full Project Name']}}</a></h1>
+{{p['Description']}}  
+<!-- 
+Base ID,Full Project Name,Description,Supply,Project Category,Medical Supply ID,Individual Design ID,All Revisions,Last Revision,Last_ID,textid,Design Priority,Rec Level,Link,Link 2,Link 3,HeaderImage,What License,When Indexed,Attribution Organization,Creator,Use Case,Audience: Risk,MedTeam Design Specific Notes,Other Notes:,Revision Table Schema,Med Team Notes,Numerical ID,Kimly's Don't Touch Please,General Skills/Tools,Design Files,Manufacturing Audience,Bill of Materials,Tools Necessary,Difficulty,Approximate Production Time,Kill,Kill_2 -->
+
+
+{% endfor %}
 # The Problem:
 
 [https://lh3.googleusercontent.com/JfWpGAgJmiIFb_D84FjDsdz_csCzQ6y2e0ITYBH7mH13Bk2iVbejkqxcMOveZV4Wy5SC7fZABhxbUJfQMC-m8WsG0C8UYvc55p0-i8IaTEt3qEjkuc8EZfxsJE2K9NWQkuYEOOtb](https://lh3.googleusercontent.com/JfWpGAgJmiIFb_D84FjDsdz_csCzQ6y2e0ITYBH7mH13Bk2iVbejkqxcMOveZV4Wy5SC7fZABhxbUJfQMC-m8WsG0C8UYvc55p0-i8IaTEt3qEjkuc8EZfxsJE2K9NWQkuYEOOtb)
