@@ -92,7 +92,7 @@ All mask materials must be able to withstand sanitization. Most cloth masks will
 <!-- This should also categorize, filter, etc by recommendation level. Which I believe was user caution level. The data required to split rec and non-rec designs is in airabtle --BEN -->
 {% for p in site.data.projects %}
 
-{% if p['Full Project Name] == page.id %}
+{% if p['Full Project Name'] == page.id %}
 <h1><a href="{{p['Link']}}">{{p['Full Project Name']}}</a></h1>
 {{p['Description']}}  
 <!-- 
