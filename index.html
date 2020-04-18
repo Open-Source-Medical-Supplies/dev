@@ -12,17 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
 
-    <script>
-        // async Google Fonts
-        $(function() {
-            var fonts = 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i';
-            if (document.createStyleSheet) {
-                document.createStyleSheet(fonts);
-            } else {
-                $("head").append($("<link rel='stylesheet' href='"+ fonts +"' type='text/css' media='screen' />"));
-            }
-        });
-    </script>
+    <link type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i'></link>
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -30,6 +20,7 @@
     <!-- FA -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" integrity="sha256-CuUPKpitgFmSNQuPDL5cEfPOOJT/+bwUlhfumDJ9CI4=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css" integrity="sha256-pIAzc/BIIo/hSvtNEDIiMTBtR9EfK3COmnH2pt8cPDY=" crossorigin="anonymous" />
+    <!-- /FA -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
@@ -45,10 +36,10 @@
 
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        <li class="active"><a href="#header">Home</a></li>
-        <li><a href="#connect">Connect</a></li>
+        <li><a href="#statistics">Our Impact</a></li>
+        <li><a href="#resources">Resources</a></li>
         <li><a href="#values">Designs</a></li>
-        <li><a href="#Featured">Media and Supporters</a></li>
+        <li><a href="#featured">Media and Supporters</a></li>
         <li><a href="#contact">Contact</a></li>
 
 
@@ -333,7 +324,7 @@
     </div>
   </section><!-- End Values Section -->
 
-  <section id="Featured">
+  <section id="featured">
     <div class="container">
       <div class="section-title">
         <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"> Featured In</h2>
@@ -455,10 +446,12 @@
   </section><!-- End Contact Section -->
 </main><!-- End #main -->
 
-<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+<a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
+  integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js'></script>
+<script src='/scripts/main.js'></script>
 
 </body>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </html>
