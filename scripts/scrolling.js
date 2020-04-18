@@ -58,18 +58,4 @@
   if ($(window).scrollTop() > 100) {
     $("#header").addClass("header-scrolled");
   }
-
-  // Stick the header at top on scroll
-  $("#header").sticky({ topSpacing: 0, zIndex: "50" });
-
-  // register back to top button functionality
-  $(".back-to-top").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
-    return false;
-  });
-
-  // Init AOS
-  if (window.AOS) {
-    window.AOS.init({ duration: 1000, easing: "ease-in-out-back" });
-  }
 })(jQuery);
