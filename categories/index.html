@@ -1,10 +1,12 @@
 ---
 layout: main
 ---
-<!-- Name,Display Name,Target Audience,KD Category ID,EOL,Type,Dev Backup Doc Link,web-name,PPE Designs List,Med. Supply Category Caveats -->
 
-<h2>Categories List</h2>
-<ul class="d-flex flex-column list-unstyled">
+{% include renderMD.html fileName="medSupplyGuideMain" %}
+
+<!-- Name,Display Name,Target Audience,KD Category ID,EOL,Type,Dev Backup Doc Link,web-name,PPE Designs List,Med. Supply Category Caveats -->
+<h2 class="text-center">Categories List</h2>
+<ul class="d-flex flex-column list-unstyled ml-4">
   {% for p in site.data.categories %}
   <li>
     <a href="{{p['web-name']}}" class="osms-link">
