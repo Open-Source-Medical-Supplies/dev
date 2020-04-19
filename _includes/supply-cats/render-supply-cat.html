@@ -1,0 +1,28 @@
+<!-- To use, pass in 'webName', e.g. webName='face-mask-ppe' -->
+<!-- MUST have matching .md file located relatively and .csv file in _data -->
+
+{% assign webName = include.webName %}
+{% assign markdownURL = "supply-cats/" | append: webName | append: ".md" %}
+{% capture markdownContent %}{% include {{ markdownURL }} %}{% endcapture %}
+
+{{ markdownContent | markdownify }}
+
+<div class="row justify-content-center">
+  {% for p in site.data[webName] %}
+  {% assign headerURL = p['HeaderImage'] | parseImageUrl %}
+  
+  <a href="{{p['Link']}}" class="mr-2" style="max-width: 30%">
+    <div class="card">
+      <img class="card-img-top" src={{ headerURL }}>
+      <h5 class="card-title">{{p['Full Project Name']}}</h5>
+      {% if p['Description'] %}
+      <p class="card-text">
+        {{p['Description']}}
+        {% else %}
+        No description
+        {% endif %}
+      </p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
