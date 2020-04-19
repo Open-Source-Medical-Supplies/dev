@@ -4,11 +4,11 @@ v1.3
 
 ## The Problem
 
-COVID19 is currently spreading exponentially, in a mostly-unchecked fashion, throughout the world. Infection doubling rates are currently as high as 2-3 days. In basic models, such unchecked growth means the disease infects most of the world in just a few months. Current statistics indicate that 15-20% of people who get the disease require hospitalization for respiratory failure for multiple weeks, and often need intense and attentive care from medical professionals. These medical professionals are at severe risk while treating these highly infectious patients, and have an order of magnitude higher mortality rate than the patients themselves as a result. Treatment and care looks like oxygen therapy or intubation for weeks in highly-specialized ICUs.
+COVID-19 is currently spreading exponentially, in a mostly-unchecked fashion, throughout the world. Infection doubling rates are currently as high as 2-3 days. In basic models, such unchecked growth means the disease infects most of the world in just a few months. Current statistics indicate that 15-20% of people who get the disease require hospitalization for respiratory failure for multiple weeks, and often need intense and attentive care from medical professionals. These medical professionals are at severe risk while treating these highly infectious patients, and have an order of magnitude higher mortality rate than the patients themselves as a result. Treatment and care looks like oxygen therapy or intubation for weeks in highly-specialized ICUs.
 
 If infections proceed at their current pace across the globe, **we will not have enough medical supplies to prevent the higher mortality rates (11+%) Italy is seeing as of 3/31/2020.**
 
-## Treating COVID19
+## Treating COVID-19
 
 (Mostly synthesized from [200312 Medical Practitioner Interview - New England](https://docs.google.com/document/d/1XDy2i3ydX8WDu4DrDIcHxhWq0t3ud4T_KVyr_vNWaUc/edit))
 
@@ -16,13 +16,13 @@ A COVID patient usually arrives at the hospital when they develop significant sh
 
 Patients are determined to be critical if their oxygen requirements increase ([hypoxemia](https://www.mayoclinic.org/symptoms/hypoxemia/basics/definition/sym-20050930)) and they develop severe shortness of breath. In critical patients, significant deterioration in oxygenation abilities occurs within 24 hours. For the vast majority of illnesses, this results in hypoxemic respiratory failure (also known as [acute respiratory failure](https://www.healthline.com/health/acute-respiratory-failure)), requiring the initiation of invasive [mechanical ventilation](https://www.wikiwand.com/en/Mechanical_ventilation). A minority of patients develop cardiac failure due to shock, usually from overwhelming [sepsis](https://www.mayoclinic.org/diseases-conditions/sepsis/symptoms-causes/syc-20351214).
 
-The hypoxemic respiratory failure associated with COVID19 is [acute respiratory distress syndrome (ARDS)](https://www.mayoclinic.org/diseases-conditions/ards/symptoms-causes/syc-20355576). This involves fluid in the [interstitium](https://www.wikiwand.com/en/Interstitium) of the lungs, that is not from heart failure ([noncardiogenic pulmonary edema](https://www.ncbi.nlm.nih.gov/books/NBK542230/)), and leads to increased stiffness in the lungs (reduced lung compliance), resulting in difficulty in ventilation. These patients respond favorably to aggressive ARDS treatment, including [proning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6026253/) and [high positive end-expiratory pressure ventilation (high PEEP ventilation)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091333/). Most patients are treated early with **antibiotics** for suspected [secondary infections](https://medlineplus.gov/ency/article/002300.htm) (an infection acquired at the hospital), but this is discontinued based on clinical status (how the patient is doing). A minority of patients develop [septic shock](https://www.wikiwand.com/en/Septic_shock) and require [vasopressors](https://www.everydayhealth.com/vasopressors/guide/) to increase blood pressure. A subset of patients also develop heart failure.
+The hypoxemic respiratory failure associated with COVID-19 is [acute respiratory distress syndrome (ARDS)](https://www.mayoclinic.org/diseases-conditions/ards/symptoms-causes/syc-20355576). This involves fluid in the [interstitium](https://www.wikiwand.com/en/Interstitium) of the lungs, that is not from heart failure ([noncardiogenic pulmonary edema](https://www.ncbi.nlm.nih.gov/books/NBK542230/)), and leads to increased stiffness in the lungs (reduced lung compliance), resulting in difficulty in ventilation. These patients respond favorably to aggressive ARDS treatment, including [proning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6026253/) and [high positive end-expiratory pressure ventilation (high PEEP ventilation)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5091333/). Most patients are treated early with **antibiotics** for suspected [secondary infections](https://medlineplus.gov/ency/article/002300.htm) (an infection acquired at the hospital), but this is discontinued based on clinical status (how the patient is doing). A minority of patients develop [septic shock](https://www.wikiwand.com/en/Septic_shock) and require [vasopressors](https://www.everydayhealth.com/vasopressors/guide/) to increase blood pressure. A subset of patients also develop heart failure.
 
-The time course of COVID19 patients is extremely variable, but patient one from Italy was hospitalized from 02/21 to 03/11, a period of 19 days. The chart below ([Lancet paper on Wuhan severe case mortality](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930566-3)) offers guidance for development of symptoms for survivors and non-survivors.
+The time course of COVID-19 patients is extremely variable, but patient one from Italy was hospitalized from 02/21 to 03/11, a period of 19 days. The chart below ([Lancet paper on Wuhan severe case mortality](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2820%2930566-3)) offers guidance for development of symptoms for survivors and non-survivors.
 
-**Visualization of Symptoms of COVID19 Over Time, ~5 Days After Exposure**
+**Visualization of Symptoms of COVID-19 Over Time, ~5 Days After Exposure**
 
-[https://lh5.googleusercontent.com/q78ktsruHihMLdyJ3dJjt16Py55V3kipacYHpArmtPGa3XkF72yLkPaA9-RkJmcPR3YIyHxnyzTnQkCW6sS5JIX9JLqZ_fwkt9eSddW0VfLWE09lOx0i2SqfQd3gsPm0GgIEpu8k](https://lh5.googleusercontent.com/q78ktsruHihMLdyJ3dJjt16Py55V3kipacYHpArmtPGa3XkF72yLkPaA9-RkJmcPR3YIyHxnyzTnQkCW6sS5JIX9JLqZ_fwkt9eSddW0VfLWE09lOx0i2SqfQd3gsPm0GgIEpu8k)
+![https://lh5.googleusercontent.com/q78ktsruHihMLdyJ3dJjt16Py55V3kipacYHpArmtPGa3XkF72yLkPaA9-RkJmcPR3YIyHxnyzTnQkCW6sS5JIX9JLqZ_fwkt9eSddW0VfLWE09lOx0i2SqfQd3gsPm0GgIEpu8k](https://lh5.googleusercontent.com/q78ktsruHihMLdyJ3dJjt16Py55V3kipacYHpArmtPGa3XkF72yLkPaA9-RkJmcPR3YIyHxnyzTnQkCW6sS5JIX9JLqZ_fwkt9eSddW0VfLWE09lOx0i2SqfQd3gsPm0GgIEpu8k)
 
 While patients are hospitalized but in non-critical condition, healthcare workers typically wear N95 masks, gowns, and gloves and sometimes face masks to prevent undue droplet-based virus contact. When patients become critical, they are moved to negative-pressure rooms in ICUs, and healthcare workers need to wear positive-pressure CAPR suits with purified regulators, because the risk of aerosolized virus is very high during intubation and critical care.
 
@@ -138,7 +138,7 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 # Manufacturing Processes
 
-[https://lh5.googleusercontent.com/wuj8Odujm3tKT0xKCTqVnXdOVlaLRLedpKvv7cTc9zdaTasdae0qxMhIRy-En4sGamFMnfRA8tvi8MBOG2AYJKPyazSow6RFr3nCKVr_8YeyFxGSXMpCxOx3EEQAQmaPJRh1XWgW](https://lh5.googleusercontent.com/wuj8Odujm3tKT0xKCTqVnXdOVlaLRLedpKvv7cTc9zdaTasdae0qxMhIRy-En4sGamFMnfRA8tvi8MBOG2AYJKPyazSow6RFr3nCKVr_8YeyFxGSXMpCxOx3EEQAQmaPJRh1XWgW)
+![manufacturing processes chart](/assets/img/charts/OSCMS Items vs. Manufacturing v1.1.png)
 
 [Download PDF](https://drive.google.com/file/d/1nE6GyWV_NFGII6-aVvukL9uCHAVUovuj/view)
 
@@ -146,7 +146,7 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 How can I help?
 
-Your first job is to educate yourself and your community on what COVID19 is and how it is treated, and understand the entire supply chain problem at hand, before you start designing or building or ideating anything.
+Your first job is to educate yourself and your community on what COVID-19 is and how it is treated, and understand the entire supply chain problem at hand, before you start designing or building or ideating anything.
 
 Your second job is to continue to grow this group. The goal of this Facebook group is to be a discussion forum and megaphone to the world once safe open source medical supply solutions are found, and it needs to be as large as possible to reach everyone who will be affected.
 
@@ -156,7 +156,7 @@ YOUR FOURTH AND POSSIBLY MOST IMPORTANT JOB is to form effective local response 
 
 How can I find out about local response efforts near me? / How can I start a local response group?
 
-We are thrilled to see an upswell in local organizing efforts to fill the gaps in medical supply chain disruptions. Dozens of Open Source COVID19 Medical Supplies (OSCMS) regional Facebook groups are cropping up, and are gathering volunteers to share information, best practices, local needs, supplies and manufacturers. You can use our [roster of local response groups](http://shorturl.at/iBCP5) to find a group near you. You can also use the “search” function in this group to find others in your location. (Begin with searching for your city, then your local area/county name, then your state/principality name, and then your country name.) When searching for other groups, try using the keywords “Open Source COVID19 Medical Supplies” or “OSCMS” and your location name.
+We are thrilled to see an upswell in local organizing efforts to fill the gaps in medical supply chain disruptions. Dozens of Open Source COVID-19 Medical Supplies (OSCMS) regional Facebook groups are cropping up, and are gathering volunteers to share information, best practices, local needs, supplies and manufacturers. You can use our [roster of local response groups](http://shorturl.at/iBCP5) to find a group near you. You can also use the “search” function in this group to find others in your location. (Begin with searching for your city, then your local area/county name, then your state/principality name, and then your country name.) When searching for other groups, try using the keywords “Open Source COVID-19 Medical Supplies” or “OSCMS” and your location name.
 
 If there is not a local response group near you and you are interested in starting one, please [read our local response guide](https://oscms.box.com/s/zh0aynd8hflxkfdaucs14ifs05z8d8dn) to learn more about what is involved and [register your group with OSCMS](https://forms.gle/8wouvvARZ2MHdG7C9).
 
@@ -166,7 +166,7 @@ If you are primarily interested in sewing face masks for a local hospital, visit
 
 INTERNATIONAL
 
-- [Covid19 Masks](https://covid19masks.info/webapps/f?p=2222:1): international PPE maker-to-hospital database
+- [COVID-19 Masks](https://covid19masks.info/webapps/f?p=2222:1): international PPE maker-to-hospital database
 
 USA
 
