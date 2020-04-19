@@ -100,8 +100,6 @@ General Skills/Tools,Design Files,Manufacturing Audience,Bill of Materials,
 Tools Necessary,Difficulty,Approximate Production Time,Kill,Kill_2,
 When Reviewed,Reviewed By,Google Doc Notes,Google Doc Note #2,Recommendation-->
 
-{% for p in site.data.face-mask-ppe %}
-  <li>
-  {{ p['Full Project Name'] }}
+{% for p in site.data.face-masks %}
+    Project Name: {{p['Full Project Name']}}
 {% endfor %}
-</li>
