@@ -17,31 +17,81 @@
     Kimly's Don't Touch Please,General Skills/Tools,Design Files,
     Manufacturing Audience,Bill of Materials,Tools Necessary,Difficulty,
     Approximate Production Time,Kill,Kill_2,When Reviewed,Reviewed By,
-    Google Doc Notes,Google Doc Note #2,Recommendation -->
+    Google Doc Notes,Google Doc Note #2,Recommendation //-->
 
-{% assign requestedProjects = site.data.projects | where: 'web-name', webName %}
+<!-- From `projects.csv`, return the array matching the `webName` of
+    our markdown file, then sort //-->
+{% assign requestedProjects = site.data.projects
+  | where: 'web-name', webName
+  | sort: 'Audience: Risk'
+  | sort: 'Recommendation' %}
 
-{% for p in requestedProjects %}
-<div></br><li>
-        Project Name: <a href="{{p['Link']}}">{{ p['Full Project Name'] }}</a>
+<div class="container">
+  {% for p in requestedProjects %}
+    </br>
+    <div class="flex-column border .padding">
 
-    {% if p['Link 2']%}
-    <br>Addtl. Design Link(s):
-     <a href="{{p['Link 2']}}">Link 2</a>
-    {% endif %}
-    {% if p['Link 3'] %}
-      , {{ p[['Link 3'] }}
-      {% endif %}</br>
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="{{p['Link']}}" class=".osms-link">
+          &nbsp;{{ p['Full Project Name'] }}</a>
+        {% if p['Recommendation'] %}
+          <div class="badge badge-secondary float-right .label">
+            {{p['Recommendation']}}
+          </div>
+        {% endif %}
+      </h5>
 
-      Reviewed by: {{ p['Reviewed By'] }}</br>
-    {{ p['Google Doc Notes'] }}
-    {% if p['Google Doc Note #2'] %}
-      , {{ p['Google Doc Note #2'] }}
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        {% if p['Link 2'] %}
+          Addtl. Design Link(s):
+          {% if p['Link 3'] %}
+          <a href="{{ p['Link 3'] }}">
+              &nbsp;Link</a>,
+          {% endif %}
+          <a href="{{ p['Link 2'] }}">
+              &nbsp;Link</a>
+        {% endif %}
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: {{ p['When Reviewed'] }}
+      </div>
+      <div class="flex-row">
+        Reviewed by: {{ p['Reviewed By'] }}
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      {% if p['Google Doc Notes'] %}
+        <ul>
+        {% if p['Google Doc Notes #2'] %}
+          <li>
+            <div class="flex-row">
+              {{ p['Google Doc Note #2'] }}
+            </div>
+          </li>
+        {% endif %}
+        <li>
+          <div class="flex-row">
+            {{ p['Google Doc Notes'] }}
+          </div>
+        </li>
+      </ul>
       {% endif %}
 
-</li></div>
+      <!-- Intended Audience badge -->
+      {% if p['Audience: Risk'] %}
+        <div class="badge badge-secondary .label">
+          {{p['Audience: Risk']}}
+        </div>
+      {% endif %}
 
-{% endfor %}
+    </div>
+  {% endfor %}
+</div>
+</br>
 
 <!-- The Code Below Will One Day Resurface and, lo, its Glory, Will be Known.
 <div class="row justify-content-center">
@@ -62,4 +112,4 @@
   </a>
   {% endfor %}
 </div>
--->
+//-->
