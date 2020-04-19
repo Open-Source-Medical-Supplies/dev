@@ -1,7 +1,5 @@
 # The Problem:
 
-[https://lh3.googleusercontent.com/JfWpGAgJmiIFb_D84FjDsdz_csCzQ6y2e0ITYBH7mH13Bk2iVbejkqxcMOveZV4Wy5SC7fZABhxbUJfQMC-m8WsG0C8UYvc55p0-i8IaTEt3qEjkuc8EZfxsJE2K9NWQkuYEOOtb](https://lh3.googleusercontent.com/JfWpGAgJmiIFb_D84FjDsdz_csCzQ6y2e0ITYBH7mH13Bk2iVbejkqxcMOveZV4Wy5SC7fZABhxbUJfQMC-m8WsG0C8UYvc55p0-i8IaTEt3qEjkuc8EZfxsJE2K9NWQkuYEOOtb)
-
 N95 respirators and other forms of filtering face masks are in short supply, and people who don’t need them are buying them. Surgical masks can serve lighter duty uses, but are also in short supply. As supplies continue to dwindle, alternatives to conventional use of PPE are necessary.
 
 In healthcare settings, fabric face masks are best used to protect existing N95s and surgical masks. Fabric face masks worn alone to provide some filtration are also an emergency option when PPE is not available. However, it is known that these masks do not provide the same level of protection as surgical masks or N95 respirators. It is not yet known whether re-use protocols for N95 respirators is preferable to using cloth masks alone.
@@ -34,11 +32,14 @@ All mask materials must be able to withstand sanitization. Most cloth masks will
 
 ### Filtration Efficiency
 
-[https://lh6.googleusercontent.com/ciIxW2d1rhL1tPgZPiSrjlJjKmLCVJBPzm2V-utyfSZWZpN-TPo0u9cuEW4kSBfoMvcHRccsFWCSBzCRjV5GUxt40ikuVyM4gJ6c7WzyVIuPdNbKGhaaAToy1ub6FF-Kn3PN3y7y](https://lh6.googleusercontent.com/ciIxW2d1rhL1tPgZPiSrjlJjKmLCVJBPzm2V-utyfSZWZpN-TPo0u9cuEW4kSBfoMvcHRccsFWCSBzCRjV5GUxt40ikuVyM4gJ6c7WzyVIuPdNbKGhaaAToy1ub6FF-Kn3PN3y7y)
+![https://lh6.googleusercontent.com/ciIxW2d1rhL1tPgZPiSrjlJjKmLCVJBPzm2V-utyfSZWZpN-TPo0u9cuEW4kSBfoMvcHRccsFWCSBzCRjV5GUxt40ikuVyM4gJ6c7WzyVIuPdNbKGhaaAToy1ub6FF-Kn3PN3y7y](https://lh6.googleusercontent.com/ciIxW2d1rhL1tPgZPiSrjlJjKmLCVJBPzm2V-utyfSZWZpN-TPo0u9cuEW4kSBfoMvcHRccsFWCSBzCRjV5GUxt40ikuVyM4gJ6c7WzyVIuPdNbKGhaaAToy1ub6FF-Kn3PN3y7y
+
 
 ### Pressure Drop
 
-[https://lh3.googleusercontent.com/dgRCeia3rnU55KNBVd5uQQPSS2DgxOHnRaYdUTm5ChuvoBbSLOE3RQEgoiAL1IP176Bum8KguQFJ-4DSbt6AI6CKaLVBUUSqexEgsWdcH4NnSVQ3f1dy2qmLmwZgs68lObuF6UoR](https://lh3.googleusercontent.com/dgRCeia3rnU55KNBVd5uQQPSS2DgxOHnRaYdUTm5ChuvoBbSLOE3RQEgoiAL1IP176Bum8KguQFJ-4DSbt6AI6CKaLVBUUSqexEgsWdcH4NnSVQ3f1dy2qmLmwZgs68lObuF6UoR)
+![https://lh3.googleusercontent.com/dgRCeia3rnU55KNBVd5uQQPSS2DgxOHnRaYdUTm5ChuvoBbSLOE3RQEgoiAL1IP176Bum8KguQFJ-4DSbt6AI6CKaLVBUUSqexEgsWdcH4NnSVQ3f1dy2qmLmwZgs68lObuF6UoR](https://lh3.googleusercontent.com/dgRCeia3rnU55KNBVd5uQQPSS2DgxOHnRaYdUTm5ChuvoBbSLOE3RQEgoiAL1IP176Bum8KguQFJ-4DSbt6AI6CKaLVBUUSqexEgsWdcH4NnSVQ3f1dy2qmLmwZgs68lObuF6UoR)
+{:class="responsive-img"}
+{:class="responsive-img-parent"}
 
 # Assembly/Fabrication Requirements:
 
