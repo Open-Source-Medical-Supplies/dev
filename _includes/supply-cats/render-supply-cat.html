@@ -7,6 +7,43 @@
 
 {{ markdownContent | markdownify }}
 
+<!-- headers for `projects.csv`:
+    Base ID,Full Project Name,Description,Supply,web-name,Project Category,
+    Medical Supply ID,Individual Design ID,All Revisions,Last Revision,Last_ID,
+    textid,Design Priority,Rec Level,Link,Link 2,Link 3,HeaderImage,
+    HeaderImageURL,What License,When Indexed,Attribution Organization,Creator,
+    Use Case,Audience: Risk,MedTeam Design Specific Notes,Other Notes:,
+    Revision Table Schema,Med Team Notes,Numerical ID,
+    Kimly's Don't Touch Please,General Skills/Tools,Design Files,
+    Manufacturing Audience,Bill of Materials,Tools Necessary,Difficulty,
+    Approximate Production Time,Kill,Kill_2,When Reviewed,Reviewed By,
+    Google Doc Notes,Google Doc Note #2,Recommendation -->
+
+{% assign requestedProjects = site.data.projects | where: 'web-name', webName %}
+
+{% for p in requestedProjects %}
+<div></br><li>
+        Project Name: <a href="{{p['Link']}}">{{ p['Full Project Name'] }}</a>
+
+    {% if p['Link 2']%}
+    <br>Addtl. Design Link(s):
+     <a href="{{p['Link 2']}}">Link 2</a>
+    {% endif %}
+    {% if p['Link 3'] %}
+      , {{ p[['Link 3'] }}
+      {% endif %}</br>
+
+      Reviewed by: {{ p['Reviewed By'] }}</br>
+    {{ p['Google Doc Notes'] }}
+    {% if p['Google Doc Note #2'] %}
+      , {{ p['Google Doc Note #2'] }}
+      {% endif %}
+
+</li></div>
+
+{% endfor %}
+
+<!-- The Code Below Will One Day Resurface and, lo, its Glory, Will be Known.
 <div class="row justify-content-center">
   {% for p in site.data[webName] %}
   
@@ -25,3 +62,4 @@
   </a>
   {% endfor %}
 </div>
+-->
