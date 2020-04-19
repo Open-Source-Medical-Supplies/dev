@@ -1,0 +1,15 @@
+---
+layout: main
+---
+<!-- Name,Display Name,Target Audience,KD Category ID,EOL,Type,Dev Backup Doc Link,web-name,PPE Designs List,Med. Supply Category Caveats -->
+
+<h2>Categories List</h2>
+<ul class="d-flex flex-column list-unstyled">
+  {% for p in site.data.categories %}
+  <li>
+    <a href="{{p['web-name']}}" class="osms-link">
+      <h3>{{p['Display Name']}}</h3>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
