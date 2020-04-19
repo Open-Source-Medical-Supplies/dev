@@ -1,55 +1,3 @@
----
-medicalSupplyId: '03'
-name: OSMS - Face Masks
-type: ppe
----
-<!--
-Base ID
-Full Project Name
-Description
-Supply
-Project Category
-Medical Supply ID
-Individual Design ID
-All Revisions
-Last Revision
-Last_ID
-textid
-Design Priority
-Rec Level
-Link
-Link 2
-Link 3
-HeaderImage
-What License
-When Indexed
-Attribution Organization
-Creator
-Use Case
-Audience: Risk
-MedTeam Design Specific Notes
-Other Notes:
-Revision Table Schema
-Med Team Notes
-Numerical ID
-Kimly's Don't Touch Please
-General Skills/Tools
-Design Files
-Manufacturing Audience
-Bill of Materials
-Tools Necessary
-Difficulty
-Approximate Production Time
--->
-
-{% for p in site.data.projects %}
-{% if p['Medical Supply ID'] == page.medicalSupplyId %}
-<h3><a href="{{p['Link']}}">{{p['Full Project Name']}}</a></h3>
-<!-- description -->
-{% if p['Description'] %}{{p['Description']}}{% else %}No description{% endif %}
-{% endif %}
-{% endfor %}
-
 # The Problem:
 
 [https://lh3.googleusercontent.com/JfWpGAgJmiIFb_D84FjDsdz_csCzQ6y2e0ITYBH7mH13Bk2iVbejkqxcMOveZV4Wy5SC7fZABhxbUJfQMC-m8WsG0C8UYvc55p0-i8IaTEt3qEjkuc8EZfxsJE2K9NWQkuYEOOtb](https://lh3.googleusercontent.com/JfWpGAgJmiIFb_D84FjDsdz_csCzQ6y2e0ITYBH7mH13Bk2iVbejkqxcMOveZV4Wy5SC7fZABhxbUJfQMC-m8WsG0C8UYvc55p0-i8IaTEt3qEjkuc8EZfxsJE2K9NWQkuYEOOtb)
@@ -129,3 +77,5 @@ All mask materials must be able to withstand sanitization. Most cloth masks will
 - Fabric masks provide different levels of filtration depending on the materials used. Please see our documentation for levels of filtration, and note that all homemade designs are to be used at your own risk. **Based on the available research, clinicians should consider using multiple masks over an 8 hour period if using woven fabric alone (i.e. the mask is not being worn to protect existing PPE from soiling). Store similar to N95s (allowing the mask to hang in a designated area or placed in a paper bag and labeled - with one mask per paper bag). Launder after each use.** Finer weaves are better when using woven material alone.
 - **If you are producing for clinicians,** it is best to ensure your local hospitals and local clinicians will accept the mask design you are considering as every hospital/clinician will have their own guidelines. We recommend working through [Make Masks](http://makemasks.org/) as they are taking hospital requests, or with hospitals that have made public requests for sewn masks. [Please see our guide for home sewists for additional groups you can connect with.](https://docs.google.com/document/d/e/2PACX-1vQVnocKNgEPNSC4DRp0QV-kKfSrPmVMsczMuq1kcIUxNA8DmvG5PS5S0e8zuPRFNe0VnlGzd6segMsl/pub)
 - Almost any breathable design that fits over a respirator and can be worn securely can be used to protect an N95 respirator from soiling, in turn potentially prolonging its availability for use as PPE. **When making masks to protect PPE:** **1)** Lighter colors are better because they make it easier to see soiling **2)** Use no more than 2 layers for this as no filtration is needed - the goal is protection from soiling, only **3)** Ensure coverage if using over an N95 (these come in several sizes and from different manufacturers) **4)** Fit is important, and ties that go around the back of the head are preferred **5)** No latex should be used in designs for clinical settings - do not use elastic. **6)** Using different colors on the front (outside facing; lighter is better) and back (inside facing) part of the mask is ideal so that the sides can easily be recognized.
+
+
