@@ -7,11 +7,22 @@
 
 {{ markdownContent | markdownify }}
 
-{% for p in site.data[webName] %}
-      <h3><a href="{{p['Link']}}">{{p['Full Project Name']}}</a></h3>
+<div class="row justify-content-center">
+  {% for p in site.data[webName] %}
+  {% assign headerURL = p['HeaderImage'] | parseImageUrl %}
+  
+  <a href="{{p['Link']}}" class="mr-2" style="max-width: 30%">
+    <div class="card">
+      <img class="card-img-top" src={{ headerURL }}>
+      <h5 class="card-title">{{p['Full Project Name']}}</h5>
       {% if p['Description'] %}
+      <p class="card-text">
         {{p['Description']}}
-      {% else %}
+        {% else %}
         No description
-      {% endif %}
-{% endfor %}
+        {% endif %}
+      </p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
