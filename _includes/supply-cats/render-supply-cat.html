@@ -1,4 +1,4 @@
-<!-- To use, pass in 'webName', e.g. webName='face-mask-ppe' -->
+<!-- To use, pass in 'webName', e.g. webName='face-mask' -->
 <!-- MUST have matching .md file located relatively and .csv file in _data -->
 
 {% assign webName = include.webName %}
@@ -9,11 +9,10 @@
 
 <div class="row justify-content-center">
   {% for p in site.data[webName] %}
-  {% assign headerURL = p['HeaderImage'] | parseImageUrl %}
   
-  <a href="{{p['Link']}}" class="mr-2" style="max-width: 30%">
+  <a href="{{p['Link']}}" class="mr-2 link-hover" style="max-width: 30%">
     <div class="card">
-      <img class="card-img-top" src={{ headerURL }}>
+      <img class="card-img-top" src={{ p['HeaderImageURL'] }}>
       <h5 class="card-title">{{p['Full Project Name']}}</h5>
       {% if p['Description'] %}
       <p class="card-text">
