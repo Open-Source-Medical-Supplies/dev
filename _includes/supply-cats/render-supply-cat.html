@@ -5,7 +5,9 @@
 {% assign markdownURL = "supply-cats/" | append: webName | append: ".md" %}
 {% capture markdownContent %}{% include {{ markdownURL }} %}{% endcapture %}
 
-{{ markdownContent | markdownify }}
+<div class="container markdown-container">
+  {{ markdownContent | markdownify }}
+</div>
 
 <!-- headers for `projects.csv`:
     Base ID,Full Project Name,Description,Supply,web-name,Project Category,
@@ -83,7 +85,7 @@
 
       <!-- Intended Audience badge -->
       {% if p['Audience: Risk'] %}
-        <div class="badge badge-secondary .label">
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
           {{p['Audience: Risk']}}
         </div>
       {% endif %}
