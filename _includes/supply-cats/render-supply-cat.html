@@ -9,18 +9,6 @@
   {{ markdownContent | markdownify }}
 </div>
 
-<!-- headers for `projects.csv`:
-    Base ID,Full Project Name,Description,Supply,web-name,Project Category,
-    Medical Supply ID,Individual Design ID,All Revisions,Last Revision,Last_ID,
-    textid,Design Priority,Rec Level,Link,Link 2,Link 3,HeaderImage,
-    HeaderImageURL,What License,When Indexed,Attribution Organization,Creator,
-    Use Case,Audience: Risk,MedTeam Design Specific Notes,Other Notes:,
-    Revision Table Schema,Med Team Notes,Numerical ID,
-    Kimly's Don't Touch Please,General Skills/Tools,Design Files,
-    Manufacturing Audience,Bill of Materials,Tools Necessary,Difficulty,
-    Approximate Production Time,Kill,Kill_2,When Reviewed,Reviewed By,
-    Google Doc Notes,Google Doc Note #2,Recommendation //-->
-
 <!-- From `projects.csv`, return the array matching the `webName` of
     our markdown file, then sort //-->
 {% assign requestedProjects = site.data.projects
