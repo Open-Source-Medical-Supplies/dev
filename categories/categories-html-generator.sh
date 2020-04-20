@@ -6,20 +6,21 @@
 #  YOU HAVE BEEN WARNED!!!
 #
 
-echo "Running this script will overwrite all .html files in this directory. "
+echo "Running this script will overwrite all .html files in this directory with names matching `web-name` values. "
 read -p "Do you want to run this script? [Yy/Nn]: " -n 1 -r
 
-# if [[ ! $REPLY =~ ^[Yy]$ ]]
-# then
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
 #     categories=()
 #   
 #   eval $(for file in ../_includes/supply-cats/*.md;do
 #   categories+=($(basename $file .md))
 # done)
 #   
-#   for file in ../_includes/supply-cats/*.md;
-#       do category = $(basename $file .md);
-#       cp ./template.html ./$category.html;
-#       sed -i "s/web-name/$category/g" ./$category.html;
-#   done
-# fi
+  for file in ../_includes/supply-cats/*.md
+  do
+#   do category = $(basename $file .md);
+    cp ./gen-template.html ./$(basename $file .md).html
+#   sed -i "s/web-name/$category/g" ./$category.html;
+  done
+fi
