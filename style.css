@@ -51,6 +51,27 @@
   text-decoration: underline;
 }
 
+.background-white {
+  background-color: white;
+}
+
+.background-and-border {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.border-radius-0-5 {
+  border-radius: 0.5rem;
+}
+.border-radius-1 {
+  border-radius: 1rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 h1{
   font-size:2em;
@@ -282,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-top: 80px;
+  margin-top: 40px;
   z-index: 3;
 }
 
@@ -690,7 +711,7 @@ section {
 }
 
 .section-bg {
-  background-color: #fff9f7;
+  background-color: #ffeee1;
 }
 
 .section-title {
