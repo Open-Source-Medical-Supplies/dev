@@ -1,2 +1,2 @@
 #! /usr/bin/env bash
-for file in *; do mv "$file" `echo $file | tr ' ' '-'` ; done
+for file in *; do mv "$file" $(echo $file | tr ' ' '-') ; done
