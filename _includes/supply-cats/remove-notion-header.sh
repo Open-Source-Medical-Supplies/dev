@@ -7,6 +7,6 @@ then
   for file in *.md
   do
       sed -i -e "1,2d" "$file"
-      mv "$(basename $file .md).md-e" "$file.bak"
+      rm "*.md-e"
   done
 fi
