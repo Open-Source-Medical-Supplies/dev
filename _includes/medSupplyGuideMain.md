@@ -1,6 +1,6 @@
 # SPRINT — Medical Supply Guide
 
-v1.3
+v1.2.1 - last updated 4/12/2020 @ 11:33 AM Pacific Time
 
 ## The Problem
 
@@ -44,7 +44,7 @@ Regulatory standards that apply to the supplies and devices in question:
 
 [Recommended Content and Format of Non-Clinical Bench Performance Testing Information](https://www.fda.gov/media/113230/download) (FDA)
 
-Good Samaritan Laws in the United States
+## Good Samaritan Laws in the United States
 
 In the United States, Good Samaritan laws offer legal protection from civil lawsuits to people who voluntarily provide reasonable aid to those who are injured, ill, in danger, or otherwise incapacitated. A claim of negligent care can also be raised if the injuries or illness were made worse by the volunteer's negligence. Laws generally do not exempt a Good Samaritan who acts in a willful, wanton or reckless manner in providing care, advice, or assistance.
 
@@ -54,11 +54,11 @@ If you are familiar with similar laws in other countries, please reach out to us
 
 **References:** [Good Samaritans](https://definitions.uslegal.com/g/good-samaritans/) (US Legal)
 
-Social Action, Responsibility and Heroism (SARAH) Act in the United Kingdom
+## Social Action, Responsibility and Heroism (SARAH) Act in the United Kingdom
 
 Effective in England and Wales, the Social Action, Responsibility and Heroism (SARAH) Act seeks to provide protection to individuals who act voluntarily to provide reasonable aid to those who are injured, ill, in danger, or otherwise incapacitated. The Bill contains language to make clear its overarching purpose: to “take a range of measures to encourage volunteering and involvement in social action”.
 
-Access to Medical Treatments (Innovation) Act 2016, the United Kingdom
+## Access to Medical Treatments (Innovation) Act 2016, the United Kingdom
 
 This Bill, applicable to England and Wales, was enacted “...to promote access to innovative medical treatments (including treatments consisting in the off-label use of medicines or the use of unlicensed medicines) by providing for (a) the establishment of a database of innovative medical treatments, and (b) access to information contained in the database.”
 
@@ -76,7 +76,7 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 *Each of the following links directs to a resource page with more detailed information, including designs that have been vetted by a team of medical professionals. Please note that this review process is not equivalent to any government or regulatory review process*.
 
-## Supplies
+### Supplies
 
 [Hand Sanitizer](https://docs.google.com/document/d/1RSfDK7nwD-xN2_1-GhC9Aa2XwRHSDfJrz9bYgPvKlZQ/edit?usp=sharing) BROKEN
 
@@ -116,7 +116,7 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 [Venturi Masks](https://docs.google.com/document/d/1eIdD96gCq0crfAvhMtBm-XBRLbq6QVOQSXl8OA0suP4/edit?usp=sharing) BROKEN
 
-## Devices
+### Medical Devices
 
 [Negative Pressure Rooms](https://docs.google.com/document/d/1Gk4rVSDihSm-6-mmZCIQqkL3adTGHHiEAPZB3K3ordQ/edit?usp=sharing) BROKEN
 
@@ -144,7 +144,7 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 # FAQ
 
-How can I help?
+## How can I help?
 
 Your first job is to educate yourself and your community on what COVID-19 is and how it is treated, and understand the entire supply chain problem at hand, before you start designing or building or ideating anything.
 
@@ -154,21 +154,21 @@ Your third job is to go out and find as many existing solutions as possible to t
 
 YOUR FOURTH AND POSSIBLY MOST IMPORTANT JOB is to form effective local response networks around your primary and secondary care systems. Read the document below. Form cohesive local groups; don't splinter, don't silo. Your hospitals will need your help very soon, if they don't already. Your grocery stores, homeless shelters, nursing homes, lifetime care facilities, public transit workers, garbage collectors, and the like will need your help now. **[Get prepared with effective strategies from our Local Response Guide.](https://oscms.box.com/s/zh0aynd8hflxkfdaucs14ifs05z8d8dn)**
 
-How can I find out about local response efforts near me? / How can I start a local response group?
+## How can I find out about local response efforts near me? / How can I start a local response group?
 
 We are thrilled to see an upswell in local organizing efforts to fill the gaps in medical supply chain disruptions. Dozens of Open Source COVID-19 Medical Supplies (OSCMS) regional Facebook groups are cropping up, and are gathering volunteers to share information, best practices, local needs, supplies and manufacturers. You can use our [roster of local response groups](http://shorturl.at/iBCP5) to find a group near you. You can also use the “search” function in this group to find others in your location. (Begin with searching for your city, then your local area/county name, then your state/principality name, and then your country name.) When searching for other groups, try using the keywords “Open Source COVID-19 Medical Supplies” or “OSCMS” and your location name.
 
 If there is not a local response group near you and you are interested in starting one, please [read our local response guide](https://oscms.box.com/s/zh0aynd8hflxkfdaucs14ifs05z8d8dn) to learn more about what is involved and [register your group with OSCMS](https://forms.gle/8wouvvARZ2MHdG7C9).
 
-How can I find hospitals that need help in my area?
+## How can I find hospitals that need help in my area?
 
 If you are primarily interested in sewing face masks for a local hospital, visit [Make Masks](https://www.makemasks2020.org/volunteer) to get started. If you have commercially manufactured PPE available, we recommend using a matching resource from the list below to find locations near you that are requesting PPE donations.
 
-INTERNATIONAL
+### INTERNATIONAL
 
 - [COVID-19 Masks](https://covid19masks.info/webapps/f?p=2222:1): international PPE maker-to-hospital database
 
-USA
+### USA
 
 - [Get Us PPE](https://getusppe.org/) - makers- and manufacturers-to-hospitals
 - [Mask Match](https://www.mask-match.com/) - individuals-to-hospitals via mask match
@@ -178,11 +178,11 @@ USA
 
 ### For other maker-built supplies, we recommend searching for organizers in your region before reaching out to hospitals directly. We need to ensure that hospitals are not overwhelmed with excessive phone calls about donations.
 
-Can I make something and bring it directly to a hospital to be used?
+## Can I make something and bring it directly to a hospital to be used?
 
 It varies, but usually, no. For some PPE items (cloth face masks, face shields, head covers, etc.) hospitals may already be accepting donations, but this is not universal. We recommend checking with local organizations. You can also register as a Maker at [www.GetUsPPE.org/makers](http://www.getusppe.org/makers). For other supplies, particularly for devices like ventilators, there is not yet a clear pathway for getting items from makers into hospitals. There are a number of safety concerns with medical devices that need to be addressed. Please do not show up at a hospital unannounced with donations.
 
-How can I get my plans reviewed?
+## How can I get my plans reviewed?
 
 First evaluate whether your design is truly a new design or a modification of an existing design. Search the group and all of the relevant documentation to see if others have posted similar items. If your design is novel or a substantive modification of another design, please submit the design at [https://bit.ly/2xsjWpO](https://bit.ly/2xsjWpO) so our technical review team can assess it. Note that this may take some time due to the sheer volume of new designs we are receiving. Thank you for your patience as we continue to refine this workflow!
 
@@ -196,37 +196,35 @@ First evaluate whether your design is truly a new design or a modification of an
 
 3D printing can be an efficient method of mass-producing needed supplies to prevent shortages. In one example of successful use of 3D printing, [respirator valves](https://www.fastcompany.com/90477940/these-good-samaritans-with-a-3d-printer-are-saving-lives-by-making-new-respirator-valves-for-free) are already being 3D printed in response to the increased need for mechanical ventilation in Italian hospitals. [However, medical devices pose unique problems that require additional precautions in 3D printing](https://www.machinedesign.com/3d-printing-cad/article/21838078/the-challenge-of-3d-printing-medical-devices).
 
-# 
-
-# ****FDA UPDATE: [FAQs on 3D Printing of Medical Devices and Accessories during COVID-19](https://www.fda.gov/medical-devices/3d-printing-medical-devices/faqs-3d-printing-medical-devices-accessories-components-and-parts-during-covid-19-pandemic) [4/5/20]**
+# **FDA UPDATE [4/5/20]: [FAQs on 3D Printing of Medical Devices and Accessories during COVID-19](https://www.fda.gov/medical-devices/3d-printing-medical-devices/faqs-3d-printing-medical-devices-accessories-components-and-parts-during-covid-19-pandemic)**
 
 ### Are 3D printed parts sterile?
 
 Due to the way in which they are manufactured, 3D printed materials are frequently more porous than typical medical device materials, allowing them to harbor microbes if they are not carefully sterilized. **[Medical sterilization techniques require heat, radiation, and chemical sterilization processes. Any 3D printed device made for use with patients must be able to withstand repeated exposure to these processes.](https://blog.gotopac.com/2017/05/22/sterile-materials-and-outcomes-for-3d-printing-sterile-parts/)** Most common 3D printing materials will warp, melt, or lose tensile strength when exposed to medical sterilization; see previous link for a list of materials that can be sterilized. There is some [sterile 3D manufacturing](https://blog.gotopac.com/2017/05/22/sterile-materials-and-outcomes-for-3d-printing-sterile-parts/) but it is rare, mostly proprietary, and usually already located in a hospital or research lab. Not usually conducive to mass-scale production.
 
-### What about using CPAP or BiPAP machines?
+## What about using CPAP or BiPAP machines?
 
 CPAP (continuous positive airway pressure) is a form of non-invasive ventilation in which mild, consistent air pressure is applied through a mask to keep the airway open and maintain oxygenation. BiPAP (bilevel positive airway pressure) is similar to CPAP, but alternates periods of higher and lower pressure to make it easier for the patient to exhale. While these are being used in the treatment of patients experiencing respiratory distress, **[these methods have been discouraged for the treatment of COVID-19 patients](https://www.ncbi.nlm.nih.gov/pubmed/32096367)** [due to the risk of aerosolizing the virus and thus increasing risk of infection to other patients and caregivers; the risk can be mitigated, but not eliminated, with optimal mask fit.](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30084-9/fulltext) ******In addition, [these approaches are unlikely to prevent the need for mechanical ventilation, though they may postpone it](https://link.springer.com/article/10.1186/cc8883). Recent [updates from the FDA](https://www.fda.gov/media/136318/download) indicate that manufacturers of CPAP or BiPAP machines may submit proposed modifications to be considered for Emergency Use Authorization. This requires the modifications be tested, documented, and formally submitted to the FDA for consideration. These devices would be used to support respiratory therapy but would not be used in lieu of ventilators. Modifications to these devices would be intended to reduce the risk of aerosolizing the virus.
 
-### What about building a negative pressure ventilator?
+## What about building a negative pressure ventilator?
 
 A negative pressure ventilator (sometimes colloquially called an “iron lung”) is a mechanical ventilator that acts by intermittently lowering the pressure around the patient’s abdomen to less than atmospheric pressure, mimicking the natural function of the muscles and diaphragm to allow the patient to take in air. This can be accomplished with either a large tank surrounding the patient’s body, or a smaller jacket-like device worn by the patient. These have been widely used for breathing difficulties caused by neuromuscular disorders, but **their safety and effectiveness in pneumonia and ARDS is poorly studied**. [In addition, most forms restrict access to the patient’s body](https://adc.bmj.com/content/77/5/454), and most medical professionals are not familiar with their use.
 
-Is there a Slack/Jira/Wiki/Discord for this group?
+## Is there a Slack/Jira/Wiki/Discord for this group?
 
 We have a team of over 180 volunteers from all over the globe who are collaborating on the Slack channel that supervises this group. We have moderators, administrators, medical professionals, transcriptionists, engineers, communications specialists, marketing teams, philanthropists, scientists, points of contact for makerspaces and globally distributed manufacturers, and more. The explicit goal of our group is to not design anything ourselves. We believe there are tens of thousands of engineers all over the world already working on the problems we present, and our job is to vet, catalog, present, and soon act upon those solutions. If you would like to join this narrowly scoped and tightly focused team, please let us know in the comments.
 
-Will I get sued for making things?
+## Will I get sued for making things?
 
 In the United States, Good Samaritan laws offer legal protection from civil lawsuits to people who voluntarily provide reasonable aid to those who are injured, ill, in danger, or otherwise incapacitated. We are providing you with the specifications you will need to manufacture items which are much-needed during this pandemic; however, you are responsible for your creations, so please practice due diligence. We recommend reading [OSCMS: 3D Printing - Getting Started, Safety, and Designs](https://docs.google.com/document/d/16ueR28p-oZb_uPKXFzuxK-X62rgYXlGETNOLitoSf6s/edit?usp=sharing)**.**
 
-Are home-sewn masks safe?
+## Are home-sewn masks safe?
 
 They are safe by being better than nothing. Here is a design that has been approved by our medical experts: [http://project-cloth-masks.com](http://project-cloth-masks.com/). You can find other vetted designs for masks and other PPE [here](https://docs.google.com/document/d/1TKkGWLQcFaQYyN9NIyd8gkdkgCkhHmWns3ZEcIbOJsQ/edit).
 
 In a [randomized trial](https://bmjopen.bmj.com/content/5/4/e006577), it was found that cloth face masks were associated with higher rates of respiratory infection than wearing medical masks (N95 respirators); however, this study did not test whether cloth masks were better than no masks at all. The results of this study have been widely misinterpreted. Cloth face masks are an appropriate choice for members of the general public, for healthcare workers to wear over other types of mask, or as an emergency alternative when no other PPE is available.
 
-I want to sew face masks. What mask should I make/what materials should I use/how do I find a hospital to donate to?
+## I want to sew face masks. What mask should I make/what materials should I use/how do I find a hospital to donate to?
 
 We have created a [guide specifically for sewists/crafters](https://docs.google.com/document/d/e/2PACX-1vQVnocKNgEPNSC4DRp0QV-kKfSrPmVMsczMuq1kcIUxNA8DmvG5PS5S0e8zuPRFNe0VnlGzd6segMsl/pub). Please read the information on this page. Additionally, if you are located in the United States, you should visit the [Relief Crafters of America](https://www.facebook.com/groups/reliefcraftersofamerica/) page. They have already established regional hubs to facilitate mask distribution. We have also created a [guide for organizing cloth mask donations](https://docs.google.com/document/d/e/2PACX-1vRa7v81MSjhwsa9bTV_v2c0oGzRtfmofi37SwAuBeczqDOO_XfoMP7UWMfj7eh8BsibX8uNWv-jrxKi/pub). Due to the size of this group, we cannot approve individual posts about coordinating donations of home-made face masks. We recommend reading [this information about face masks](https://docs.google.com/document/d/1TKkGWLQcFaQYyN9NIyd8gkdkgCkhHmWns3ZEcIbOJsQ/edit?usp=sharing) before proceeding.
 
