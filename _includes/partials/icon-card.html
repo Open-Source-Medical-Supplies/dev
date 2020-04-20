@@ -1,0 +1,6 @@
+{% assign imgURL = "/assets/img/" | append: include.fileName %}
+
+<div class="col-lg-3 col-md-6 pt-2 flex-center flex-column state icon-box" data-aos="fade-up" data-aos-delay="250">
+  <img class="img-fluid icon" src="{{imgURL}}" class="icon" style="width:100px;height:100px" />
+  <p>{{include.text}}</p>
+</div>
