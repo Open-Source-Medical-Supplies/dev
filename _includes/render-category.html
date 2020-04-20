@@ -1,8 +1,8 @@
 <!-- To use, pass in 'webName', e.g. webName='face-mask' -->
 <!-- MUST have matching .md file located relatively and .csv file in _data -->
 
-{% assign webName = include.webName %}
-{% assign markdownURL = "supply-cats/" | append: webName | append: ".md" %}
+{% assign webName = include.category.webName %}
+{% assign markdownURL = "category/" | append: webName | append: ".md" %}
 {% capture markdownContent %}{% include {{ markdownURL }} %}{% endcapture %}
 
 <div class="container markdown-container">
@@ -10,11 +10,11 @@
 </div>
 
 <!-- From `projects.csv`, return the array matching the `webName` of
-    our markdown file, then sort //-->
+    our markdown file, then sort on recommendation integer-representation //-->
+
 {% assign requestedProjects = site.data.projects
-  | where: 'web-name', webName
-  | sort: 'Audience: Risk'
-  | sort: 'Recommendation' %}
+  | where: 'web-name', webName 
+  | sort: 'Recommendation_#' %}
 
 <div class="container">
   {% for p in requestedProjects %}
@@ -71,12 +71,12 @@
       </ul>
       {% endif %}
 
-      <!-- Intended Audience badge -->
+      <!-- Intended Audience badge (not 1:1 w/Google Doc)
       {% if p['Audience: Risk'] %}
         <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
           {{p['Audience: Risk']}}
         </div>
-      {% endif %}
+        {% endif %} //-->
 
     </div>
   {% endfor %}

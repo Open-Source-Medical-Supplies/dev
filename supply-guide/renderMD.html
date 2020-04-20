@@ -1,0 +1,7 @@
+{% assign fileName = include.fileName %}
+{% assign markdownURL = include.prepend | append: fileName | append: ".md" %}
+{% capture markdownContent %}{% include {{ markdownURL }} %}{% endcapture %}
+
+<div class="container markdown-container">
+  {{ markdownContent | markdownify }}
+</div>
