@@ -1,5 +1,3 @@
-# pulse-oximeter
-
 # Pulse Oximeter
 
 # The Problem:

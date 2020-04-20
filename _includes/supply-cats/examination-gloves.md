@@ -1,5 +1,3 @@
-# examination-gloves
-
 # OSCMS - Examination Gloves
 
 ---

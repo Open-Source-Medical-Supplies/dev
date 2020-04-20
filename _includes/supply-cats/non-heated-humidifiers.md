@@ -1,5 +1,3 @@
-# non-heated-humidifiers
-
 # OSCMS - Non-Heated Humidifier
 
 # The Problem:

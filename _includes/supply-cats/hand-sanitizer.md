@@ -1,5 +1,3 @@
-# hand-sanitizer
-
 # OSCMS - Hand Sanitizer
 
 ---

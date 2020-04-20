@@ -1,5 +1,3 @@
-# face-shields-ffp
-
 # OSCMS - Face Shields
 
 ---

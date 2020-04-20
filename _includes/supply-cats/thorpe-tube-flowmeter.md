@@ -1,5 +1,3 @@
-# thorpe-tube-flowmeter
-
 # Thorpe Tube Flowmeter
 
 # The Problem:

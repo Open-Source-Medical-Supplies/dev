@@ -1,5 +1,3 @@
-# oxygen-concentrators
-
 # OSCMS - Oxygen Mask
 
 # The Problem:

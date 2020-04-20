@@ -1,5 +1,3 @@
-# nasal-cannulas
-
 # OSCMS - Nasal Cannulas
 
 # The Problem:

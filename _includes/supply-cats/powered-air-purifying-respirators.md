@@ -1,5 +1,3 @@
-# powered-air-purifying-respirators
-
 # OSCMS - Powered Air Purifying Respirators (PAPR)
 
 ---

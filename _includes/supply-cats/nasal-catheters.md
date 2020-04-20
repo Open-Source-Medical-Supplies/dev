@@ -1,5 +1,3 @@
-# nasal-catheters
-
 # OSCMS - Nasal Catheters
 
 # The Problem:

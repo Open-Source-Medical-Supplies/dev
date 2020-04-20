@@ -1,5 +1,3 @@
-# n95-respirators
-
 # OSCMS - N95 Respirators
 
 ---

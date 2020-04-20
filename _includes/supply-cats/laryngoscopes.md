@@ -1,5 +1,3 @@
-# laryngoscopes
-
 # OSCMS - Laryngoscopes
 
 # The Problem:

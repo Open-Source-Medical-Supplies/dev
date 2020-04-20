@@ -1,10 +1,8 @@
-# infusion-pumps
-
 # OSCMS - Infusion Pump
 
 # The Problem:
 
-- “We often need more than 3 per patient, especially for dobutamine, and they are not complex.”
+“We often need more than 3 per patient, especially for dobutamine, and they are not complex.”
 
 # Current Global Resources:
 

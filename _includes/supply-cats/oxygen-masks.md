@@ -1,5 +1,3 @@
-# oxygen-masks
-
 # OSCMS - Oxygen Mask
 
 # The Problem:

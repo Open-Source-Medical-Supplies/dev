@@ -1,5 +1,3 @@
-# noncontact-thermometers
-
 # OSCMS - Non-Contact Thermometer
 
 # The Problem:

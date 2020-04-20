@@ -1,5 +1,3 @@
-# negative-pressure-rooms
-
 # Negative Pressure Rooms
 
 AKA Airborne Infection Isolation Room - AIIR

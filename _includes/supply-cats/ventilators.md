@@ -1,5 +1,3 @@
-# ventilators
-
 # OSCMS - Ventilator Machines
 
 ---

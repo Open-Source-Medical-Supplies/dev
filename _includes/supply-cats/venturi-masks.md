@@ -1,5 +1,3 @@
-# venturi-masks
-
 # OSCMS - Venturi Masks
 
 # The Problem:

@@ -1,5 +1,3 @@
-# face-masks
-
 # OSCMS - Face Masks
 
 ---
@@ -38,11 +36,7 @@ All mask materials must be able to withstand sanitization. Most cloth masks will
 
 ### Filtration Efficiency
 
-[https://lh5.googleusercontent.com/_WolQyR04_530A62rNhRodQdW7IvFFFna9HdRA-x7UqgLmcoVlDp6hzFqp0dkyPNjS7oO9Qg583-Xyhe6SBuxqcmqzkFjBmG5jL8u3hku_h6vk4SoI6YyghCl0ZuS9L5cBJjXpnk](https://lh5.googleusercontent.com/_WolQyR04_530A62rNhRodQdW7IvFFFna9HdRA-x7UqgLmcoVlDp6hzFqp0dkyPNjS7oO9Qg583-Xyhe6SBuxqcmqzkFjBmG5jL8u3hku_h6vk4SoI6YyghCl0ZuS9L5cBJjXpnk)
-
 ### Pressure Drop
-
-[https://lh6.googleusercontent.com/3S7E3JtrVI5yrafv681o7AKkZzbjh2tji5XMCC3NkoKiSNAdpIezBDqACLM2XK8RnBFV8xF-WCI7yiQHHspcmRml72Q0NaX5XiuiVR4zNq6f2QrK8UejBHsLf7D3CNqeurt4fRg3](https://lh6.googleusercontent.com/3S7E3JtrVI5yrafv681o7AKkZzbjh2tji5XMCC3NkoKiSNAdpIezBDqACLM2XK8RnBFV8xF-WCI7yiQHHspcmRml72Q0NaX5XiuiVR4zNq6f2QrK8UejBHsLf7D3CNqeurt4fRg3)
 
 # Assembly/Fabrication Requirements:
 

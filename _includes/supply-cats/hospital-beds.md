@@ -1,5 +1,3 @@
-# hospital-beds
-
 # Hospital Beds
 
 # The Problem:
