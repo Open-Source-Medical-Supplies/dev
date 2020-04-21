@@ -76,6 +76,8 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 *Each of the following links directs to a resource page with more detailed information, including designs that have been vetted by a team of medical professionals. Please note that this review process is not equivalent to any government or regulatory review process*.
 
+{% include categories.html %}
+
 ### Supplies
 
 [Hand Sanitizer](https://docs.google.com/document/d/1RSfDK7nwD-xN2_1-GhC9Aa2XwRHSDfJrz9bYgPvKlZQ/edit?usp=sharing) BROKEN
