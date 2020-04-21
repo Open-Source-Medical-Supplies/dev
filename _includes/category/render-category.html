@@ -1,0 +1,99 @@
+<!-- To use, pass in 'webName', e.g. webName='face-mask' -->
+<!-- MUST have matching .md file located relatively and .csv file in _data -->
+{% assign webName = include.webName %}
+{% include renderMD.html fileName=webName %}
+
+<!-- From `projects.csv`, return the array matching the `webName` of
+    our markdown file, then sort //-->
+{% assign requestedProjects = site.data.projects
+  | where: 'web-name', webName
+  | sort: 'Audience: Risk'
+  | sort: 'Recommendation' %}
+
+<div class="container">
+  {% for p in requestedProjects %}
+    </br>
+    <div class="flex-coumn border .padding">
+
+      <!-- Name of Project, Link to, Recommendation badge -->
+      <h5 class="flex-row">
+        <a href="{{p['Link']}}" class=".osms-link">
+          &nbsp;{{ p['Full Project Name'] }}</a>
+        {% if p['Recommendation'] %}
+          <div class="badge badge-secondary float-right .label">
+            {{p['Recommendation']}}
+          </div>
+        {% endif %}
+      </h5>
+
+      <!-- Optional Addtl. Design Links-->
+      <div class="flex-row">
+        {% if p['Link 2'] %}
+          Addtl. Design Link(s):
+          {% if p['Link 3'] %}
+          <a href="{{ p['Link 3'] }}">
+              &nbsp;Link</a>,
+          {% endif %}
+          <a href="{{ p['Link 2'] }}">
+              &nbsp;Link</a>
+        {% endif %}
+      </div>
+
+      <!-- Review Info -->
+      <div class="flex-row">
+        Review Date: {{ p['When Reviewed'] }}
+      </div>
+      <div class="flex-row">
+        Reviewed by: {{ p['Reviewed By'] }}
+      </div>
+
+      <!-- Suppl. Google Doc Info -->
+      {% if p['Google Doc Notes'] %}
+        <ul>
+        {% if p['Google Doc Notes #2'] %}
+          <li>
+            <div class="flex-row">
+              {{ p['Google Doc Note #2'] }}
+            </div>
+          </li>
+        {% endif %}
+        <li>
+          <div class="flex-row">
+            {{ p['Google Doc Notes'] }}
+          </div>
+        </li>
+      </ul>
+      {% endif %}
+
+      <!-- Intended Audience badge
+      {% if p['Audience: Risk'] %}
+        <div class="badge badge-secondary .label" style="white-space: pre-wrap;">
+          {{p['Audience: Risk']}}
+        </div>
+      {% endif %} //-->
+
+    </div>
+  {% endfor %}
+</div>
+</br>
+
+<!-- The Code Below Will One Day Resurface and, lo, its Glory, Will be Known.
+<div class="row justify-content-center">
+  {% for p in site.data[webName] %}
+  
+  <a href="{{p['Link']}}" class="mr-2 link-hover" style="max-width: 30%">
+    <div class="card">
+      <img class="card-img-top" src={{ p['HeaderImageURL'] }}>
+      <h5 class="card-title">{{p['Full Project Name']}}</h5>
+      {% if p['Description'] %}
+      <p class="card-text">
+        {{p['Description']}}
+        {% else %}
+        No description
+        {% endif %}
+      </p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+//-->
