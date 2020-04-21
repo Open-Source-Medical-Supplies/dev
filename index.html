@@ -5,8 +5,7 @@ layout: main
 <!-- Updated by OSMS Dev Team -->
 
 <!-- header-->
-{% assign landingLinks = [{ href: "#about", label: "About OSMS" }, { href: "#statistics", label: "Our Impact" }, { href: "#values", label: "Designs" }, { href: "#featured", label: "Media and Supporters" }, { href: "#contact", label: "Contact" }]%}
-{% include nav.html links=landingLinks %}
+{% include nav.html links=site.data.nav.landing %}
 
 <!-- End Header -->
 {% include landing-page/sections/hero.html %}
