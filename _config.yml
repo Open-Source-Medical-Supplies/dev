@@ -35,6 +35,9 @@ plugins:
   - jekyll-feed
 exclude:
   - processing-scripts
+  
+sass:
+  sass_dir: _sass
 
 sass:
     sass_dir: assets/scss
