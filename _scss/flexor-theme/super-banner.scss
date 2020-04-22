@@ -1,0 +1,51 @@
+// pretty sure this isn't being used? but keeping it around just in case it's hiding somewhere.
+#super-banner{
+  height:40vh;
+  position:relative;
+  width:100%;
+  margin-top:0px;
+
+  h1 {
+    white-space: normal;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    max-width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .background-image{
+    background-image:url("/assets/img/osms-surgeons.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    z-index:-2;
+  }
+  
+  .background-dimmer{
+    background-color:rgba(0,0,0,.3
+    );
+  
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    z-index:-2;
+  }
+  
+  .text-overlay{
+    color:white;
+    position:relative;
+    font-weight:bold;
+    text-align:center;
+    top:100%;
+    transform:translate(0%, -100%);
+    padding:2em;
+  }
+}
