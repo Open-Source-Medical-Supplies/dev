@@ -130,3 +130,16 @@ section{
     margin-right:1em;
   }
 }
+
+div.hr {
+  border-left-color: rgba(0,0,0,0.3) !important;
+  border-left-style: solid;
+  &.hr-med {
+    border-left-width: 2px;
+    margin: 0 4.16667%; // half of col-1
+  }
+  &.hr-thick {
+    border-left-width: 4px;
+    margin: 0 4.16667%; // half of col-1
+  }
+}

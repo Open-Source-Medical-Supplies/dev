@@ -8,9 +8,10 @@ body {
 }
 
 a {
-  color: #ff5821;
+  color: #ff5821 !important;
   &:hover {
-    color: #ff7e54;
+    color: #ff7e54 !important;
+    opacity: 0.5;
     text-decoration: none;
   }
 }
@@ -29,4 +30,16 @@ h2 {
 
 img {
   max-width:100%;
+}
+
+hr {
+  border-top-color: rgba(0,0,0,0.3) !important;
+  &.hr-med {
+    border-top-width: 2px;
+    margin: 1.5rem 0;
+  }
+  &.hr-thick {
+    border-top-width: 4px;
+    margin: 2rem 0;
+  }
 }

@@ -1,0 +1,9 @@
+<div class="row d-flex justify-content-center">
+  {% for press in include.row %}
+  <div class="col-lg-2 col-md-4 state icon-box flex-wrap flex-center" data-aos="fade-up" data-aos-delay="50">
+    <a class="flex-center" href={{press.href}}>
+      <img class="img-fluid icon" src={{press.image}} class="icon" style="width:auto; max-height:100%" />
+    </a>
+  </div>
+  {% endfor %}
+</div>
