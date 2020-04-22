@@ -1,4 +1,11 @@
 <!-- include.links = Array<{href: string; label: string;}> -->
+
+{% capture links %}
+  {% for link in include.links %}
+    <li><a href="{{link.href}}">{{link.label}}</a></li>
+  {% endfor %}
+{% endcapture %}
+
 <header id="header">
   <div class="container d-flex">
 
@@ -6,11 +13,31 @@
       <h1 class="text-light"><a href="/index.html"><span>OSMS</span></a></h1>
     </div>
 
+    <nav class="nav-menu d-md-block d-lg-none flex-column flex-center">
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button"
+        data-toggle="collapse"
+        data-target="#collapseContent"
+        aria-controls="collapseContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="collapseContent">
+        <ul class="navbar-nav mr-auto">
+          {{links}}
+        </ul>
+      </div>
+      <!-- Collapsible content -->
+    </nav>
+    
+    <!-- DESKTOP -->
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        {% for link in include.links %}
-          <li><a href="{{link.href}}">{{link.label}}</a></li>
-        {% endfor %}
+        {{links}}
 
         <div class="dropdown_new">
           <li><a href="">Take Action Now</a></li>
@@ -27,7 +54,6 @@
             </div>
             <div class="row text-center" style="position: relative;">
               <div class="col-sm-4 col-lg-2"></div>
-
 
               <div class="col-sm-3 col-lg-2">
                 <ul class="menu_content">
