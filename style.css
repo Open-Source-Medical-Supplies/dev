@@ -39,6 +39,8 @@ nav #collapseContent {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1)
 }
 
+
+
 /*** kept for posterity ***/
 /* markdown image handling */
 /* .responsive-img {
@@ -749,13 +751,13 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us {
+.resources {
   padding: 0 0 30px 0;
   position: relative;
   z-index: 3;
 }
 
-.why-us .content {
+.resources .content {
   padding: 30px;
   background: #ff5821;
   margin-top:20px;
@@ -763,17 +765,17 @@ section {
   color: #fff;
 }
 
-.why-us .content h3 {
+.resources .content h3 {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
 
-.why-us .content p {
+.resources .content p {
   margin-bottom: 30px;
 }
 
-.why-us .content .more-btn {
+.resources .content .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
@@ -782,16 +784,16 @@ section {
   transition: all ease-in-out 0.4s;
 }
 
-.why-us .content .more-btn i {
+.resources .content .more-btn i {
   font-size: 14px;
 }
 
-.why-us .content .more-btn:hover {
+.resources .content .more-btn:hover {
   color: #ff5821;
   background: #fff;
 }
 
-.why-us .icon-boxes .icon-box {
+.resources .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
   background: #fff;
@@ -800,19 +802,19 @@ section {
   width: 100%;
 }
 
-.why-us .icon-boxes .icon-box i {
+.resources .icon-boxes .icon-box i {
   font-size: 40px;
   color: #ff5821;
   margin-bottom: 30px;
 }
 
-.why-us .icon-boxes .icon-box h4 {
+.resources .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 30px 0;
 }
 
-.why-us .icon-boxes .icon-box p {
+.resources .icon-boxes .icon-box p {
   font-size: 15px;
   color: #716f6f;
 }
