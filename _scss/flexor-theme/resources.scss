@@ -1,0 +1,71 @@
+.resources {
+  padding: 0 0 30px 0;
+  position: relative;
+  z-index: 3;
+}
+
+.resources .content {
+  padding: 30px;
+  background: #ff5821;
+  margin-top:20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.resources h1, .resources h1 a {
+  font-size: $h1-font-size;
+}
+
+.resources .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.resources .content p {
+  margin-bottom: 30px;
+}
+
+.resources .content .more-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.resources .content .more-btn i {
+  font-size: 14px;
+}
+
+.resources .content .more-btn:hover {
+  color: #ff5821;
+  background: #fff;
+}
+
+.resources .icon-boxes .icon-box {
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
+}
+
+.resources .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #ff5821;
+  margin-bottom: 30px;
+}
+
+.resources .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.resources .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #716f6f;
+}
