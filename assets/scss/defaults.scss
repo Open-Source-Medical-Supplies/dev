@@ -8,9 +8,10 @@ body {
 }
 
 a {
-  color: #ff5821;
+  color: #ff5821 !important;
   &:hover {
-    color: #ff7e54;
+    color: #ff7e54 !important;
+    opacity: 0.5;
     text-decoration: none;
   }
 }
