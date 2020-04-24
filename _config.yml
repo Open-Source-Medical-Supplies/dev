@@ -35,10 +35,6 @@ plugins:
   - jekyll-feed
 exclude:
   - processing-scripts
-  
-sass:
-  sass_dir: ./_sass
-  style: compressed
 
 sass:
     sass_dir: assets/scss
