@@ -1,8 +1,8 @@
 <!-- To use, pass in 'webName', e.g. webName='face-mask' -->
 <!-- MUST have matching .md file located relatively and .csv file in _data -->
 {% assign webName = include.webName %}
-<!-- {% assign medSupCatMarkdownDir = 'medical-supply-guide/categories/' %}
-{% include renderMD.html fileName=webName prepend=medSupCatMarkdownDir %} -->
+{% assign medSupCatMarkdownDir = 'medical-supply-guide/categories/' %}
+{% include renderMD.html fileName=webName prepend=medSupCatMarkdownDir %}
 
 <!-- From `projects.csv`, return the array matching the `webName` of
     our markdown file, then sort //-->
