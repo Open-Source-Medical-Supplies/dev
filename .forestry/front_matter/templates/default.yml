@@ -5,3 +5,7 @@ fields:
 - type: text
   name: layout
   label: layout
+- name: test
+  type: boolean
+  label: Test
+  description: Here's some help text
