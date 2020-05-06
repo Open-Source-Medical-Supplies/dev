@@ -2,7 +2,9 @@
 <html>
 
 <head>
+  {% include robots.html %}
   {% include analytics.html %}
+  {% include tag-manager-head.html %}
   <!-- SCSS is being used, but jekyll generates a css file. -->
   <link rel="stylesheet" href="/assets/css/styles.css">
   <!-- DO NOT CHANGE FROM '.CSS'  -->
@@ -33,11 +35,7 @@
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4TDZCC"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
+  {% include tag-manager-body.html %}
   {{content}}
   <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
 </body>
