@@ -140,7 +140,7 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 # Manufacturing Processes
 
-![manufacturing processes chart](/assets/img/charts/OSCMS Items vs. Manufacturing v1.1.png)
+![manufacturing processes chart](assets/img/charts/OSCMS Items vs. Manufacturing v1.1.png)
 
 [Download PDF](https://drive.google.com/file/d/1nE6GyWV_NFGII6-aVvukL9uCHAVUovuj/view)
 
