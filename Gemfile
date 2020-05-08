@@ -2,12 +2,12 @@ source "https://rubygems.org"
 # Theme
 gem "minima", "~> 2.5"
 # gem "jekyll", "4.0.0"
+gem "jekyll", "3.8.5"
 
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
   gem "jekyll-sass-converter"
-  gem "jekyll-assets"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
