@@ -6,6 +6,8 @@ gem "minima", "~> 2.5"
 gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
+  gem "jekyll-sass-converter"
+  gem "jekyll-assets"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
