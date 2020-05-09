@@ -136,7 +136,7 @@ Numerous medical devices are required to treat the COVID-19 patient and will als
 
 [Laryngoscopes](https://docs.google.com/document/d/1wdXsRfzab2tr3iWBylV7GS5jsWqaYPBRpF1NY4KTI5s/edit?usp=sharing) BROKEN
 
-[Infusion Pumps](https://docs.google.com/document/d/1vtfZRlm-I9mUVWwtA6S8sK7UZE6OwrdkAky2w_d9b-o/edit?usp=sharing) DA FUCK BROKEN
+[Infusion Pumps](https://docs.google.com/document/d/1vtfZRlm-I9mUVWwtA6S8sK7UZE6OwrdkAky2w_d9b-o/edit?usp=sharing) BROKEN
 
 # Manufacturing Processes
 
